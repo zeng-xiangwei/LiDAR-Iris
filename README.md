@@ -1,3 +1,5 @@
+# 自采数据的6帧合1，且只旋转到世界系下，在 /pcd 文件夹下，里面的keyposes.txt是位姿，可以拿它假设是位姿真值
+
 # LiDAR Iris for Loop-Closure Detection
 
 Our reimplemented c++ code for our IROS2020 paper "LiDAR Iris for Loop-Closure Detection".

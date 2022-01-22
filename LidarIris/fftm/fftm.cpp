@@ -116,7 +116,7 @@ float logpolar(Mat& src, Mat& dst)
         }
         theta += d_theta;
     }
-    remap(src, dst, map_x, map_y, CV_INTER_LINEAR, BORDER_CONSTANT, Scalar(0, 0, 0));
+    remap(src, dst, map_x, map_y, INTER_LINEAR, BORDER_CONSTANT, Scalar(0, 0, 0));
     return log_base;
 }
 //-----------------------------------------------------------------------------------------------------
